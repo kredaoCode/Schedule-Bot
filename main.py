@@ -2,7 +2,7 @@ import asyncio
 from aiogram import Bot, Dispatcher
 from aiogram.types import Message
 
-from app.tokens import tg_token
+from tokens import tg_token
 
 bot = Bot(token=tg_token)
 dp = Dispatcher()
